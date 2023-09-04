@@ -1,0 +1,49 @@
+/*        [CHƯƠNG 1] BÀI 8 : External Internal Inline */
+
+
+h1 {
+    color :blue;
+    font-size: 40px;
+}
+
+/*
+    External CSS:
+- External CSS là khi ta tạo một tệp CSS riêng biệt và sau đó liên kết nó với tệp HTML bằng thẻ `<link>`.
+- Điều này cho phép ta tách biệt kiểu và cấu trúc, và có thể sử dụng cùng một tệp CSS cho nhiều trang HTML khác nhau.
+- Ví dụ:
+    HTML:
+    ```html
+    <link rel="stylesheet" href="styles.css">
+    ```
+    CSS (trong tệp styles.css):
+    ```css
+    body {
+    background-color: lightblue;
+    }
+    ```
+
+Internal CSS:
+- Internal CSS là khi ta viết mã CSS trực tiếp trong thẻ `<style>` bên trong tệp HTML.
+- Điều này cho phép ta áp dụng kiểu cho một trang HTML cụ thể.
+- Ví dụ:
+    ```html
+    <style>
+    h1 {
+        color: red;
+    }
+    </style>
+    ```
+
+Inline CSS:
+- Inline CSS là khi ta sử dụng thuộc tính style trực tiếp trong thẻ HTML.
+- Điều này cho phép ta áp dụng kiểu cho một phần tử cụ thể.
+- Ví dụ:
+    ```html
+    <h1 style="color: blue;">This is a heading</h1>
+    ```
+
+Tóm lại, đây là sự khác biệt giữa external, internal và inline CSS:
+- External CSS: Sử dụng tệp CSS riêng biệt và liên kết với HTML bằng thẻ `<link>`.
+- Internal CSS: Viết CSS trực tiếp bên trong thẻ `<style>` trong tệp HTML.
+- Inline CSS: Sử dụng thuộc tính style trong thẻ HTML.
+*/

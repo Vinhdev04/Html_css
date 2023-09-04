@@ -1,0 +1,28 @@
+/*
+    Sự khác nhau giữa Opacity, Visibility và Display none 
+ */
+
+.box {
+    background-color: #ffa400;
+    width: 200px;
+    height: 300px;
+    border: 15px solid red;
+    margin-top: 15px;;
+    margin-left: 20px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    /* opacity: 0; */
+    opacity: 1;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+/* Phân biệt opacity, visibility, display none
+* Đối với opacity = 1 ==> trạng thái hiển thị bình thường
+    opacity = 0 ==> ko thấy phần tử, nhưng vẫn chiếm diện tích và có thể nhấn vào được
+    opacity = 0,5 ==> độ giảm đi một nửa
+* Đối với visibility: hidden ==> Ko nhìn thấy phần tử, không nhấn vào được
+* Đối với display: none ==> biến mât khỏi trang web và ko thể nhấn vào
+ */ 

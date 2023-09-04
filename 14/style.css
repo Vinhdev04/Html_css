@@ -1,0 +1,33 @@
+/*        [CHƯƠNG 2] BÀI 3 : Các thuộc tính về color */
+
+/* 
+selector {
+    property: value;
+}
+
+Selector :
+Tags: p,div,h1,main,a,.....
+class: .demo, .header, .boy
+id: #container, #footer
+
+Property: color, background
+value: red, black,...
+
+*/
+
+/* 
+Color: value
+named: red,black,green,....
+hexa: #ffa400, #ff7870,.....
+rgb: rgb(0,0,0), rgb(255,255,255),...
+rgba: rgba(0,0,0,0.5),....
+alpha: opacity 0->1
+ */
+
+p {
+    color: brown;
+    color: #ffa400;
+    color: rgb(0,0,0);
+    color:rgba(0,0,0,0.5);
+    font-size: 20px;
+}

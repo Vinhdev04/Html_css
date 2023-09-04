@@ -1,0 +1,40 @@
+/*        [CHƯƠNG 2] BÀI 10 : Các thuộc tính về padding   */
+
+/* .margin {
+    width: 10rem;
+    height: 10rem;
+    font-size: 20%;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+} */
+.padding {
+    width: 10rem;
+    height: 10rem;
+    background-color: blueviolet;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+.margin  {
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+
+
+}
+    /* padding không thể mang giá trị âm
+        1 gia tri --> top = right = left = bottom = 20px
+        padding: 20px;
+    */
+    /* 2 gia tri --> top = bottom = 20px; left = right = 30px
+    padding: 20px 30px;
+    */
+    /* 3 gia tri --> top = 10px; right = left = 20px; bottom = 30px
+        padding: 10px 20px 30px;
+    */
+    /* 4 gia tri --> top = 10px; right = 20px; bottom = 30px; left = 40px
+    padding: 10px 20px 30px 40px;
+    */

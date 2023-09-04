@@ -1,0 +1,21 @@
+/* 
+	Bài 4: Shadow trong CSS toàn tập
+
+*/
+
+.box {
+	background-color: black;
+	margin: 15px;
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	margin: 50px auto;
+	box-shadow: -5px -5px 10px 10px #719f58;
+	box-shadow: inset -19px 20px 15px 2px #719f58; 
+}
+
+.title {
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: -5px -5px 0 red;
+}

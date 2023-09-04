@@ -1,0 +1,17 @@
+/*        [CHƯƠNG 2] BÀI 13 : Các thuộc tính về font  */
+
+body {
+    font-family: 'Borel', cursive;
+    font-weight: 160;
+    font-size: 16px;
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+    color: brown;
+}
+
+/* Thuộc tính về font :
+    font-family:'Borel', cursive   ==> kiểu Borel , sans-serif : chữ không có gạch chân 
+    font-weight: 160 ==> độ đậm
+    font-style: italic ==> kiểu in nghiêng 
+*/

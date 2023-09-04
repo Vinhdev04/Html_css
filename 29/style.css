@@ -1,0 +1,35 @@
+/* CHƯƠNG 3: Bài 1: Gradient trong CSS */
+
+/* Background-Gradients
+    background-image: linear-gradient()
+    linear-gradient:    to right,to left, to top, to left bottom,...
+                        120deg
+                        color1
+                        color2
+    background-image: linear-gradient(to right top, blue 30%  ,red 30%  );  ==> Phần tử thứ 2 mix màu băt đầu từ 30% của phần tử đầu
+                        
+ */
+.boxed {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right top, blue 30% ,red 50% );
+}
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    background-image: linear-gradient(to right bottom, blue , red );
+    display: inline-block;
+    margin-top:20px;
+    margin-left:20px;
+    color:transparent;
+    -webkit-background-clip:text;
+    background-clip:text;
+}
+/* Trong thẻ HTML h3.title
+    Xét Text-gradient:
+    do là thẻ inline ==> chuyển sang thẻ block
+    display: inline-block;
+    color:transparent; ==> trong suốt 
+    -webkit-background-clip:text;  ==> gradient
+    background-clip:text;
+ */

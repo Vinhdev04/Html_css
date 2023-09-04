@@ -1,0 +1,39 @@
+/*   TIM HIEU VE CANIUSE VA SUPPORTS 
+
+    https://caniuse.com/ --> check xem co ho tro khong 
+*/
+
+.title {
+    font-weight: bold;
+    font-size: 3rem;
+    display:inline-block;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: purple;
+}
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top right,rgba(255, 0, 0, 0.247),rgba(44, 202, 255, 0.197)),url("https://images.unsplash.com/photo-1693032521206-7920d3607b81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80");
+    background-size: cover;
+}
+@supports  (-webkit-background-clip: text){
+    .title {
+    color: transparent;
+    background-image: linear-gradient(to right bottom, green,yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    }
+}
+
+
+    @supports not (-webkit-background-clip: text){
+    .title {
+        color: transparent;
+        background-image: linear-gradient(to top bottom,green,yellow);
+        -webkit-background-clip:text;
+        background-clip: text;
+
+    }
+}
+

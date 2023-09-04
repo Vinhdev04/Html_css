@@ -1,0 +1,20 @@
+/*        [CHƯƠNG 1] BÀI 7 : Clas và id  */
+
+/*
+    Trong CSS, class và id là hai thuộc tính được sử dụng để xác định và áp dụng các quy tắc kiểu cho các phần tử HTML. Dưới đây là một số điểm khác nhau giữa class và id:
+
+Class:
+- Class được định nghĩa bằng cách sử dụng từ khóa "<link>class</link>" trong thẻ HTML.
+- Một phần tử có thể có nhiều class và các class có thể được chia sẻ giữa các phần tử khác nhau.
+- Để áp dụng quy tắc kiểu cho một class, bạn sử dụng dấu chấm trước tên class trong CSS.
+- Ví dụ: "<link>.my-class</link> { color: blue; }"
+
+ID:
+- ID được định nghĩa bằng cách sử dụng từ khóa "<link>id</link>" trong thẻ HTML.
+- Mỗi phần tử chỉ có một duy nhất ID.
+- Để áp dụng quy tắc kiểu cho một ID, bạn sử dụng dấu "#" trước tên ID trong CSS.
+- Ví dụ: "<link>#my-id</link> { font-size: 16px; }"
+
+Sự khác biệt chính giữa class và id là tính duy nhất của id trong khi class có thể được sử dụng lại cho nhiều phần tử. 
+Thông thường, bạn nên sử dụng class khi muốn áp dụng cùng một kiểu cho nhiều phần tử và sử dụng id khi chỉ muốn áp dụng kiểu cho một phần tử duy nhất.
+*/

@@ -1,0 +1,8 @@
+/* CHƯƠNG 3 : BÀI 2: Xử lý background overlay gradient  */
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to right top, rgba(255, 0, 0, 0.753),rgba(0, 0, 255, 0.715)),
+    url("https://images.unsplash.com/photo-1559930198-26e8d7f0a4f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size:cover;
+}

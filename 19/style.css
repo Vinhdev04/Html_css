@@ -1,0 +1,74 @@
+
+/*        [CHƯƠNG 2] BÀI 8 : Các thuộc tính về border */
+
+/*
+    viết chung - viết rút gọn 
+    border : border-width border-style border-color
+
+    border-width : 2px;
+
+    border-style: solid;     ==> đường viền nét liền
+    border-style: dotted;    ==> đường viền dấu chấm
+    border-style: dashed;    ==> đường viền nét đứt gạch ngang
+
+    border-color: red ,......
+
+*/
+
+/*
+    Tạo chi tiết các góc khác nhau 
+
+    border-top: 2px solid red;
+    border-right: 15px solid black;
+    border-bottom: 10px solid green;
+    border-left: 10px solid blue;
+
+*/
+
+/*
+    border: 5px solid black;
+    border: radius: 10px 20px 30px 40px;  ==> xét 4 góc
+
+    Xét riêng :
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    ................................
+
+    Bo tròn
+    border-radius: 50%;
+    outline: 2px solid red;    ==> outline không bo góc như border-radius
+*/
+.em {
+    font-size: 16px;
+    width: 10em;
+    height: 10em;
+    background-color: green;
+    border: 2px solid black;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid red;
+    border-right: 10px solid yellow;
+    border-left: 10px solid blue;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.rem {
+    font-size: 16px;
+    width: 10rem;
+    height: 10rem;
+    background-color: gold;
+    border-top: 10px solid green;
+    border-right: 15px solid red;
+    border-left: 10px solid blueviolet;
+    border-bottom: 10px solid navajowhite;
+    border-top: 10px dashed green;
+    border-bottom: 15px dashed red;
+    border-left: 15px dashed palegreen;
+    border-right: 20px dashed maroon;
+
+}

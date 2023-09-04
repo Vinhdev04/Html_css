@@ -1,0 +1,13 @@
+.pseudo {
+    font-size: 50px;
+    color: black;
+}
+.pseudo:hover {
+    color:blue;
+}
+.pseudo:active {
+    color:red;
+}
+.pseudo:visited {
+    color:blueviolet;
+}

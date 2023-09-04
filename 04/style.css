@@ -1,0 +1,18 @@
+/*        [CHƯƠNG 1] BÀI 8 : Cấu trúc BEM */
+
+/*
+BEM : Block Element Modifier
+Laptop : Block
+Keyboard,mouse,desktop,touchpad,screen : Element
+Big,fullHD,red,black : Modifier
+Laptop big, laptop smal : Modifier for Block
+Small keyboar, smal mouse : Modifier for Element
+
+Block_Element--modifier
+Block--modifier
+Block__Elenment
+
+laptop__keyboard--big
+laptop--big
+laptop__mouse
+*/

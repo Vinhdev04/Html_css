@@ -1,0 +1,41 @@
+/*        [CHƯƠNG 2] BÀI 15 : Các thuộc tính về ảnh  */
+
+img {
+	display: block;
+	max-width: 100%;
+}
+.image {
+	width: 20rem;
+	height: 20rem;
+	object-fit: cover;
+	object-position: top;
+	object-position: bottom;
+	object-position: center;
+	margin: 0 auto;
+}
+
+/* Thẻ block dễ dàng căn chỉnh 
+	img {
+		display: block;
+		==> chuyển về thẻ block dễ căn chỉnh 
+
+	object-fit: cover ==> phủ hết khung ảnh
+	object-position:top;   ==> lấy trên  	
+	object-position:bottom; ==> lấy dưới
+	object-position:center; 	 ==> lấy giữa
+	margin-left: auto;
+	margin-right: auto;   ==> margin: 0 auto; căn chính giữa trang
+*/
+
+/* Căn chỉnh đối với thẻ inline : text-align: center; 
+		trong thẻ html tạo :
+	<div class ="image-wrap">
+		<img
+			src".."
+			alt".."
+			class ="image"
+		>
+	</div>		
+	    Trong CSS :
+		.image-wrap {
+			text-align: center;    ==> căn giữa cho thẻ inline 

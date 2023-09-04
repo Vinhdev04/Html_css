@@ -1,0 +1,28 @@
+/*        [CHƯƠNG 2] BÀI 12 : Các thuộc tính về display  */
+
+a {
+    color: rebeccapurple;
+    text-decoration: none;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    background-color: aqua;
+    /* display: none; */ 
+    display: inline-block;
+}
+
+/* Thẻ inline bị hạn chế về CSS : margin-top,margin-bottom, width, height  ===> dùng thuộc tính display để khắc phục 
+    Thuộc tính display :
+    display: none;  ==> dùng để ẩn phần tử  
+    display: inline-block; ==> được sử dụng để xác định cách hiển thị phần tử trên trang web
+    display: block;        ==> được sử dụng để xác định cách hiển thị phần tử trên trang web
+    text-decoration: none   ==> dùng để xóa gạch dưới chân của phần tử
+
+    Một số phần tử mặc định có giá trị 'display' đã được xác định sẵn,
+    ví dụ: 'div' có giá trị 'display' là 'block', 'span' có giá trị 'display' là 'inline'.
+    'display' có thể được kế thừa từ phần tử cha, vì vậy nếu phần tử cha có giá trị 'display' là 'block',
+    thì các phần tử con trong nó cũng sẽ được hiển thị như là 'block' mặc định.
+    Bạn có thể sử dụng các giá trị khác nhau của 'hiển thị' để tạo cấu trúc trang web và điều chỉnh vị trí, kích thước và hiển thị của các phần tử.
+    Khi sử dụng 'display: none', phần tử sẽ không được hiển thị, 
+    nhưng nó vẫn tồn tại trong DOM cây và có thể được hiển thị lại bằng cách thay đổi giá trị 'display' khác.
+ */

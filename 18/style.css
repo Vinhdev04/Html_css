@@ -1,0 +1,65 @@
+/*        [CHƯƠNG 2] BÀI 7 : Sự khác nhau giữa REM và EM */
+/* .background {
+    background-color: green;
+    width: 500px;
+    height: 500px;
+} */
+/* body {
+    height: 2000px;
+} */
+.background {
+    background: red 
+    url("https://images.unsplash.com/photo-1688551658117-f2be980a75b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80")
+    no-repeat center center / cover;
+    width: 100%; /* 400 px */
+    width: 100vw;
+    height: 100vh;
+    
+}
+.wrap {
+    width: 400px;
+}
+
+html {
+    font-size:  62.5%;
+    /*
+        1 rem = 10 px
+    */
+}
+
+/*
+    font-size: 100% = 16px
+    1 em = 1 rem = 16px
+
+*/
+
+/*
+    Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của chính nó hoặc phần tử chứa nó
+    Nếu tăng font-size lên 32px ==>> 1 em = 32px
+*/
+.em {
+    font-size: 32px;
+    width: 10em;
+    height: 10em;
+    background-color: green;
+}
+
+/*
+    Là đơn vị sẽ phụ thuộc vào thuộc tính font-size của thrt html
+    Mặc định 100% ==>> rem  = 160px
+*/
+
+.rem {
+    font-size: 32px;
+    width: 10rem;
+    height: 10rem;
+    background-color: blueviolet;
+}
+
+/*
+    Ví Dụ :
+    100% = 16px 
+    ?% = 10px
+    ? = (10*100)/16 = 62.5%
+
+*/

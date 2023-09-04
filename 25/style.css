@@ -1,0 +1,61 @@
+/*        [CHƯƠNG 2] BÀI 14 : Các thuộc tính về chữ  */
+
+body {
+    font-family: 'Borel', cursive;
+    font-weight: 160;
+    font-size: 16px;
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+    color: brown;
+}
+
+.font {
+    line-height: 2;
+    text-align: right;
+    text-align: left;
+    text-align: center;
+    text-align: justify;
+    max-width: 300px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    
+
+    /*
+    line-height: 2;       ==> Khoảng các các chữ, mặc định = 1
+    text-align: right;    ==> căn phải
+    text-align: left;     ==> căn trái
+    text-align: center;   ==> căn giữa
+    text-align: justify;  ==> căn đều 2 bên
+    max-width: 300px;
+    letter-spacing: 5px;  ==> khoẳng cách giữa các kí tự
+    word-spacing: 5px;    ==> khoẳng cách giữa các chữ
+     */
+
+    /* Hiển thị trên 1 hàng có dấu 3 chấm cuối hàng 
+
+        white-space: nowrap;  ==> hiển thị trên 1 hàng 
+        overflow: hidden;     ==> ẩn nội dung bị tràn
+        text-overflow: ellipsis;  ==> dấu 3 chấm cuối hàng 
+    */
+
+    /* Hiển thị dấu 3 chấm ở hàng thứ 3 */
+    display: -webkit-box;          
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;   
+    overflow: hidden;         
+    text-overflow: ellipsis;  
+    word-break: break-word;
+    word-break: break-all;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
+
+    /*   overflow: hidden;         ==> ẩn phần nội dung bị tràn
+        text-overflow: ellipsis;   ==> dấu 3 chấm ở hàng thứ 3 
+        -webkit-line-clamp: 3;     ==> số dòng cần
+        text-shadow: 2px 2px 4px #000000;  ==> tạo hiệu ứng đổ bóng cho văn bản
+        word-break: break-word; ==> rớt theo ký tự
+        word-break: break-all;  ==> rớt theo từ 
+        text-decoration: underline;  ==> trang trí văn bản như : gạch chân , gạch ngang
+     */
+}
